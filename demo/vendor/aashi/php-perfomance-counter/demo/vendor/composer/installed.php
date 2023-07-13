@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ba8a3db537ccfd85f7bd3157d9c0152bad3866b4',
+        'reference' => 'b7757195f8e2906ab728ca7ff57cb5468012c2ff',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ba8a3db537ccfd85f7bd3157d9c0152bad3866b4',
+            'reference' => 'b7757195f8e2906ab728ca7ff57cb5468012c2ff',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -22,7 +22,7 @@
         'aashi/php-perfomance-counter' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ba8a3db537ccfd85f7bd3157d9c0152bad3866b4',
+            'reference' => 'b7757195f8e2906ab728ca7ff57cb5468012c2ff',
             'type' => 'library',
             'install_path' => __DIR__ . '/../aashi/php-perfomance-counter',
             'aliases' => array(

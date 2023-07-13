@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "473860840d135c52228c9dbb58341f4a",
+    "content-hash": "9cf15cdbef2c87763b7ba2d28d4a2e4e",
     "packages": [
         {
             "name": "aashi/php-perfomance-counter",
@@ -12,16 +12,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kenmasters/phpPerformanceCounter.git",
-                "reference": "ba8a3db537ccfd85f7bd3157d9c0152bad3866b4"
+                "reference": "b7757195f8e2906ab728ca7ff57cb5468012c2ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kenmasters/phpPerformanceCounter/zipball/ba8a3db537ccfd85f7bd3157d9c0152bad3866b4",
-                "reference": "ba8a3db537ccfd85f7bd3157d9c0152bad3866b4",
+                "url": "https://api.github.com/repos/kenmasters/phpPerformanceCounter/zipball/b7757195f8e2906ab728ca7ff57cb5468012c2ff",
+                "reference": "b7757195f8e2906ab728ca7ff57cb5468012c2ff",
                 "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7"
@@ -33,7 +30,6 @@
                     "Aashi\\PhpPerfomanceCounter\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -45,16 +41,18 @@
             ],
             "description": "A development tool for monitoring application performance and debugging bottlenecks",
             "support": {
-                "issues": "https://github.com/kenmasters/phpPerformanceCounter/issues",
-                "source": "https://github.com/kenmasters/phpPerformanceCounter/tree/main"
+                "source": "https://github.com/kenmasters/phpPerformanceCounter/tree/main",
+                "issues": "https://github.com/kenmasters/phpPerformanceCounter/issues"
             },
-            "time": "2023-07-13T01:41:30+00:00"
+            "time": "2023-07-13T00:24:30+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "aashi/php-perfomance-counter": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

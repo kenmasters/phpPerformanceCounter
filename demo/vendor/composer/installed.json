@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "aashi/php-perfomance-counter",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenmasters/phpPerformanceCounter.git",
+                "reference": "b7757195f8e2906ab728ca7ff57cb5468012c2ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenmasters/phpPerformanceCounter/zipball/b7757195f8e2906ab728ca7ff57cb5468012c2ff",
+                "reference": "b7757195f8e2906ab728ca7ff57cb5468012c2ff",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "time": "2023-07-13T00:24:30+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Aashi\\PhpPerfomanceCounter\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ken John Siosan",
+                    "email": "kjsiosan@gmail.com"
+                }
+            ],
+            "description": "A development tool for monitoring application performance and debugging bottlenecks",
+            "support": {
+                "source": "https://github.com/kenmasters/phpPerformanceCounter/tree/main",
+                "issues": "https://github.com/kenmasters/phpPerformanceCounter/issues"
+            },
+            "install-path": "../aashi/php-perfomance-counter"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

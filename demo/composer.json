@@ -1,0 +1,12 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kenmasters/phpPerformanceCounter"
+        }
+    ],
+
+    "require": {
+        "aashi/php-perfomance-counter": "dev-main"
+    }
+}
